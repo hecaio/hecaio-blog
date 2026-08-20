@@ -5,8 +5,8 @@ AI/大模型、RAG、NLP、后端开发技术博客。
 ## 技术栈
 
 - **框架**：Hugo + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题
-- **托管**：GitHub Pages
-- **部署**：GitHub Actions 自动部署（push 到 main 触发）
+- **托管**：Cloudflare Pages
+- **部署**：push 到 `main` 触发 Cloudflare 自动 build + deploy
 - **写作**：本地 Markdown，文件在 `content/posts/`
 
 ## 本地预览
@@ -26,13 +26,11 @@ hugo new posts/my-new-post.md
 
 ## 部署
 
-push 到 `main` 分支 → GitHub Actions 自动 build + deploy 到 Pages。
+push 到 `main` 分支 → Cloudflare Pages 自动 build + deploy。
 
 无需手动操作。
 
 ## 私有信息保护
-
-公开笔名 `hecaio` = GitHub 账户名 = 博客署名，**对外完全一致**。
 
 `.gitignore` 已排除 `.env`、`*.key`、`*.token`、`*.pem` 等敏感文件。
 
