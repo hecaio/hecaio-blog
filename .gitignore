@@ -1,0 +1,35 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hermes
+.hermes.md
+.brv/
+.hugo_build.lock
+.hermes/
+
+# Env / secrets — never commit
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.token
+
+# Hugo modules cache
+node_modules/
+
+# Misc
+.cache/

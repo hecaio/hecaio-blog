@@ -1,0 +1,50 @@
+baseURL = "https://hecaio.github.io/hecaio-blog/"
+languageCode = "zh-CN"
+title = "hecaio"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+
+[params]
+  description = "AI/大模型、RAG、NLP、后端开发技术博客"
+  author = "hecaio"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "hecaio"
+    Content = "专注 AI/大模型与 Agent、RAG 检索增强生成、NLP 自然语言处理、后端开发"
+
+  
+
+[menu]
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
