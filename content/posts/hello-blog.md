@@ -35,3 +35,4 @@ AI 应用不只是模型，还有工程化落地。FastAPI 服务化、数据库
 # 第一行代码
 print("Hello, Tech Blog!")
 ```
+<!-- auto-deploy-test: 2026-08-21 19:18:09 -->
