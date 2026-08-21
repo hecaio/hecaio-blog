@@ -35,3 +35,4 @@ push 到 `main` 分支 → Cloudflare Pages 自动 build + deploy。
 `.gitignore` 已排除 `.env`、`*.key`、`*.token`、`*.pem` 等敏感文件。
 
 代码、配置、教程示例**绝不硬编码**任何 API key / secret / 真实邮箱。
+
