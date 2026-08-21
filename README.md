@@ -1,6 +1,6 @@
 # hecaio's tech blog
 
-AI/大模型、RAG、NLP、后端开发技术博客。
+LLM、RAG、NLP、后端开发技术博客。
 
 ## 技术栈
 
